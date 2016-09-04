@@ -1,32 +1,3 @@
-<<<<<<< HEAD
-# xwj
-
-> A Vue.js project
-
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
-```
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
-=======
 # vueProject
 
 ## 简介
@@ -47,4 +18,3 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
 
 由于在开发中前后端分离，为了方便，修改了build的目录。你可以在`config/index.js`中修改第七行和第八行，来配置自己的build目录。
 
->>>>>>> 87cccfe34e1df833d4aa2057f0bf736544fac00f
