@@ -1,0 +1,5 @@
+const domain = 'http://192.168.0.101:8888'
+export const registerApi = domain + '/register'
+export const loginApi = domain + '/login'
+export const bookslistApi = domain + '/bookslist'
+export const logoutApi = domain + '/logout'
