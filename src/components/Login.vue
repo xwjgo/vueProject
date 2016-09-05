@@ -29,14 +29,12 @@ export default {
         window.alert('请输入密码！')
         return
       }
-      console.log(loginApi)
       var resource = this.$resource(loginApi)
       resource.save(loginApi, this.user)
         .then((response) => {
           window.alert(response.data)
           this.$router.go({path: '/home'})
         }, (response) => {
-          console.log(response)
           window.alert(response.data)
         })
     }

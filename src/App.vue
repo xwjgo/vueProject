@@ -4,13 +4,18 @@
     <a v-link="{path: '/login'}">登陆</a>
     <a v-link="{path: '/home'}">首页</a>
     <a v-link="{path: '/addbook'}">添加书籍</a>
+    <a v-link="{path: '/cart'}">购物车</a>
     <a @click="logout">退出</a>
     <router-view></router-view>
+    <message>
+      <p slot="msg">这里是信息提示！</p>
+    </message>
   </div>
 </template>
 
 <script>
 import {logoutApi} from './api.js'
+import Message from './components/Message'
 export default {
   methods: {
     logout () {
@@ -21,6 +26,9 @@ export default {
           this.$router.go('/login')
         })
     }
+  },
+  components: {
+    Message
   }
 }
 </script>

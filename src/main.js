@@ -7,6 +7,7 @@ import Register from './components/Register'
 import Login from './components/Login'
 import Home from './components/Home'
 import AddBook from './components/AddBook'
+import Cart from './components/Cart'
 
 Vue.use(VueResource)
 Vue.use(VueRouter)
@@ -31,6 +32,9 @@ router.map({
   },
   '/addbook': {
     component: AddBook
+  },
+  '/cart': {
+    component: Cart
   }
 })
 
